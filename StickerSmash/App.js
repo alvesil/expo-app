@@ -13,8 +13,8 @@ export default function App() {
         <ImageViewer placeholderImageSource={PlaceholderImage} />
       </View>
       <View style={styles.footerContainer}>
-        <Button label={"Escolha uma imagem"} />
-        <Button label={"Usar esta imagem"} />
+        <Button theme="primary" label="Escolha uma imagem" />
+        <Button label="Usar esta imagem" />
       </View>
       <StatusBar style="auto" />
     </View>
